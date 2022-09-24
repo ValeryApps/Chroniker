@@ -1,0 +1,8 @@
+.left_home{
+    position: fixed;
+    overflow-y: scroll;
+    max-height: 100vh;
+    user-select: none;
+    max-width: 18rem !important;
+    padding-bottom: 100px;
+}

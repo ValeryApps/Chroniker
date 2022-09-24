@@ -1,0 +1,102 @@
+.register_input_wrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register_input_wrap input {
+  outline: none;
+  border: 1px solid var(--bg-third);
+  background: var(--bg-secondary);
+  height: 40px;
+  border-radius: 10px;
+  font-size: 17px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  color: var(--color-primary);
+}
+
+.register_input_error_border {
+  border-color: #b94a48 !important;
+}
+.register_input_wrap img {
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  transform: scale(0.8);
+}
+.register_input_error {
+  position: relative;
+  padding: 15px 10px;
+  background: #b94a48;
+  color: #fff;
+  width: 100%;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.error_arrow_bottom {
+  border-bottom: 10px solid #b94a48;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  top: -7px;
+  transform: translateY(1px);
+}
+/* .error_arrow_top {
+  border-top: 10px solid #b94a48;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  bottom: -10px;
+} */
+.register_input_error_desktop {
+  position: absolute;
+  width: 100%;
+  left: -19.5rem;
+  top: 0;
+}
+
+.error_arrow_left {
+  position: absolute;
+  border-left: 10px solid #b94a48;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  left: 370px;
+  bottom: 12px;
+}
+.error_arrow_right {
+  position: absolute;
+  border-right: 10px solid #b94a48;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  right: 187px;
+  bottom: 12px;
+}
+/* Date of birht and gender errors*/
+.reg_grid .register_input_error {
+  position: absolute;
+  width: 300px;
+  top: 60px;
+}
+@media (min-width: 535px) {
+  .reg_grid .register_input_error {
+    width: 340px !important;
+  }
+}
+.reg_grid .register_input_error {
+  position: absolute;
+  width: 280px;
+  top: 60px;
+}
+.register_success {
+  color: var(--green-color);
+  width: 300px;
+  text-align: center;
+}
+.register_error {
+  color: #b94a48;
+  width: 300px;
+  text-align: center;
+}
